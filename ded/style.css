@@ -85,10 +85,6 @@ button,select {
     text-transform: none
 }
 
-[type=button],[type=reset],[type=submit],button {
-    -webkit-appearance: button;
-    background-image: none
-}
 
 :-moz-focusring {
     outline: auto
@@ -106,10 +102,6 @@ progress {
     height: auto
 }
 
-[type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px
-}
 
 ::-webkit-search-decoration {
     -webkit-appearance: none
@@ -159,10 +151,6 @@ input::placeholder,textarea::placeholder {
     cursor: default
 }
 
-audio,canvas,embed,iframe,img,object,svg,video {
-    display: block;
-    vertical-align: middle
-}
 
 img,video {
     max-width: 100%;
@@ -599,7 +587,6 @@ code {
 .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-smoothing: grayscale
 }
 
 .disabled\:opacity-50:disabled {
